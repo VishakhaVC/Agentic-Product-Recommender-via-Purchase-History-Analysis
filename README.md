@@ -16,6 +16,8 @@ The system follows a multi-agent pipeline:
   - Uses RAG to provide contextual understanding
   - Uses Gemini LLM to generate personalized recommendation messages
 
+# Dataset: https://www.kaggle.com/datasets/carrie1/ecommerce-data
+
 # System Architecture
   - User Interaction Agent – Accepts customer ID and email via Streamlit UI
   - Data Retrieval Agent (RAG) – Fetches customer purchase history as context
