@@ -55,5 +55,12 @@ The system follows a multi-agent pipeline:
   - Real-time behavior tracking
   - Sentiment-based personalization
   - Multi-channel delivery (SMS, chatbot, push notifications)
+
+# How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Add your Gemini API key in Agentic_Recommender_System.py
+3. Add sender email address and password in both files
+4. Run: streamlit run app.py
   - Cloud deployment and scalability
   - Displays results in Streamlit and sends them via email automation
